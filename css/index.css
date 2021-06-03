@@ -1,0 +1,31 @@
+@import './css/button.css';
+@import './css/header.css';
+
+/* Design system base */
+:root {
+  --gradient: radial-gradient(
+      41.48% 11.48% at 2.38% 8.52%,
+      #747de9 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
+  --purple: #310a90;
+  --green: #42e2b8;
+  --white: #ffffff;
+  --FontBase: 'Poppins', sans-serif;
+  --headline1: bold 95px / 153.71px var(--FontBase);
+  --headline2: bold 59px / 95.46px var(--FontBase);
+  --headline3: bold 48px / 77.66px var(--FontBase);
+  --headline4: bold 34px / 55.01px var(--FontBase);
+  --headline5: bold 24px / 38.83px var(--FontBase);
+  --body1: normal 16px / 25.89px var(--FontBase);
+  --body2: normal 14px / 22.65px var(--FontBase);
+  --button: bold 14px / 22.65px var(--FontBase);
+  --caption: normal 12px / 19.42px var(--FontBase);
+}
+
+body {
+  background: var(--gradient);
+  min-block-size: 100vh;
+  font: var(--body1);
+}
