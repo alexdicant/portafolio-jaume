@@ -1,5 +1,8 @@
 @import './css/button.css';
+@import './css/button-icon.css';
 @import './css/header.css';
+@import './css/hero.css';
+@import './css/wrapper.css';
 
 /* Design system base */
 :root {
@@ -28,4 +31,5 @@ body {
   background: var(--gradient);
   min-block-size: 100vh;
   font: var(--body1);
+  color: var(--purple);
 }

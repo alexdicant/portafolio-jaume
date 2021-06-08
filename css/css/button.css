@@ -6,6 +6,8 @@
   padding: 13px 24px;
   border: none;
   border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
 }
 
 .button.is-secondary {

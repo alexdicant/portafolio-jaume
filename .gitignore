@@ -1,3 +1,6 @@
 #images
 *.jpg
 *.png
+
+# Mac
+.DS_Store
