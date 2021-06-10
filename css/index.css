@@ -3,6 +3,9 @@
 @import './css/header.css';
 @import './css/hero.css';
 @import './css/wrapper.css';
+@import './css/menu.css';
+@import './css/description.css';
+@import './css/testimony.css';
 
 /* Design system base */
 :root {
